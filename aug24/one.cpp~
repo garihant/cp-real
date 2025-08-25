@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Ops {
+    int len;
+    Ops(int l) {
+        len = l;
+        static vector<int> arr(len);
+    }
+
+    void insEle() {
+	    int tc;
+	    for (int i = 0; i < len; i++) {
+		    cin >> tc;
+		    arr.push_back(tc);
+	    }
+    }    
+};
+
+int main() {
+    int n;
+    cin >> n;
+
+
+}
