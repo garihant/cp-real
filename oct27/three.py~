@@ -1,0 +1,17 @@
+n = int(input())
+l = []
+
+for i in range(n):
+    l.append(int(input()))
+
+dd = dict()
+
+for i in range(0, n):
+    if dd[l[i]] and len(dd[l[i]]) < len(l[i]):
+        dd[l[i]].append(i)
+    else:
+        dd[l[i]] = [].append(i)
+
+print(dd)
+
+print(l)
